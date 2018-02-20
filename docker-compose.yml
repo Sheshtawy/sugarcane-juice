@@ -1,0 +1,11 @@
+version: "3"
+
+services: 
+  node:
+    container_name: sugarcane-juice
+    tty: true
+    stdin_open: true
+    build: .
+    env_file: ./.env
+    volumes: 
+      - .:/var/code/:rw
