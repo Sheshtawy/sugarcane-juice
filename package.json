@@ -1,0 +1,39 @@
+{
+  "name": "sugarcane-juice",
+  "version": "1.0.0",
+  "description": "A chat bot to help you stay on top of your blood sugar",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sheshtawy/sugarcane-juice.git"
+  },
+  "keywords": [
+    "chat",
+    "bot",
+    "chatbot",
+    "diabetes",
+    "blood",
+    "sugar",
+    "dialogflow",
+    "nlp"
+  ],
+  "author": "Hisham ElSheshtawy",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Sheshtawy/sugarcane-juice/issues"
+  },
+  "homepage": "https://github.com/Sheshtawy/sugarcane-juice#readme",
+  "devDependencies": {
+    "eslint": "4.18.1",
+    "eslint-config-airbnb": "16.1.0",
+    "eslint-plugin-import": "2.9.0",
+    "eslint-plugin-jsx-a11y": "6.0.3",
+    "eslint-plugin-react": "7.7.0"
+  }
+}
